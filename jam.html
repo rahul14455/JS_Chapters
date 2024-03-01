@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LinkedIn Training Subscription</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+      }
+
+      .container {
+        max-width: 600px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      h1,
+      h2 {
+        text-align: center;
+      }
+
+      #subscription-options {
+        text-align: center;
+      }
+
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      li {
+        margin-bottom: 10px;
+      }
+
+      button {
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #0077b5;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: #005f91;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>LinkedIn Training Subscription</h1>
+      <div id="subscription-options">
+        <h2>Choose a Subscription Plan:</h2>
+        <ul>
+          <li>
+            Basic Plan - Access to basic LinkedIn training materials -
+            $19.99/month
+          </li>
+          <li>
+            Premium Plan - Access to advanced LinkedIn strategies and
+            personalized coaching - $49.99/month
+          </li>
+          <li>
+            Enterprise Plan - Customized training solutions for your
+            organization - Contact Us
+          </li>
+        </ul>
+        <button id="subscribe-btn">Subscribe</button>
+      </div>
+    </div>
+
+    <script>
+      document
+        .getElementById("subscribe-btn")
+        .addEventListener("click", function () {
+          // Redirect users to your payment gateway or subscription management system
+          window.location.href = "https://example.com/checkout";
+        });
+    </script>
+  </body>
+</html>
